@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: #cbbbed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content {
+  background-color: #fff;
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+}
+h1 {
+  margin-top: 20px;
+  background-color: rgb(8, 228, 228);
+  color: #fff;
+  font-size: 1.5em;
+}
+input {
+  text-align: center;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(8, 228, 228);
+  height: 30px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+}
+button {
+  margin-top: 10px;
+  width: 30px;
+  height: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: rgb(8, 228, 228);
+  color: #fff;
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+button:hover {
+  background-color: rgb(10, 235, 10);
+}
+.deleteButton {
+  margin-top: 0;
+  width: 28px;
+  height: 32px;
+}
+.frame {
+  display: flex;
+  gap: 10px;
+  justify-content: left;
+  align-items: center;
+}
+.deleteButton:hover {
+  background-color: red;
+}
+ol {
+  margin-top: 10px;
+}
+ol li {
+  list-style-type: none;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  min-height: 40px;
+  margin-top: 5px;
+}
