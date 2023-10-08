@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.homeContent {
+  width: 80%;
+  margin: 0 auto;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+.secondContent img {
+  width: 300px;
+}
+.service {
+  width: 73%;
+  margin: 30px auto;
+}
+.gridc {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  width: 80%;
+  margin: 20px auto;
+}
+.H_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.C_form {
+  background-color: #ddd;
+  padding: 10px 20px;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+}
+input[type="text"] {
+  margin: 5px 0;
+  width: 100%;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 1024px) {
+  .service {
+    width: 75%;
+  }
+  .gridc {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .service {
+    width: 96%;
+  }
+  .homeContent {
+    gap: 100px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .service {
+    width: 85%;
+  }
+  .gridc {
+    grid-template-columns: auto;
+  }
+  .homeContent {
+    text-align: center;
+    margin: 50px auto;
+    display: block;
+  }
+  .secondContent img {
+    width: 250px;
+    margin: 40px auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  .service {
+    width: 95%;
+  }
+}
